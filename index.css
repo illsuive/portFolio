@@ -401,7 +401,9 @@ html {
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .main-nav ul {
-        flex-direction: column;
+        
+       display: flex;
+       flex-wrap: wrap;
         align-items: center;
     }
 
@@ -416,7 +418,8 @@ html {
     }
 
     .main-nav a {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         padding: 10px;
     }
 }
