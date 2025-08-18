@@ -296,7 +296,7 @@ footer {
 
 
 /* Navigation Bar */
-.main-nav {
+/* .main-nav {
     background-color: #222;
     position: sticky;
     top: 0;
@@ -326,7 +326,7 @@ footer {
 
 .main-nav a:hover {
     background-color: #0af;
-    color: black;
+    color: white;
     border-radius: 4px;
 }
 
@@ -365,4 +365,58 @@ html {
     font-weight: 600;
     letter-spacing: 0.5px;
     transition: color 0.3s ease;
+} */
+
+/* General styles for the navigation bar */
+.main-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-nav {
+        text-align: center;
+    }
+
+    .main-nav a {
+        display: block;
+        padding: 10px;
+    }
 }
