@@ -149,6 +149,13 @@ const FullStackProject = [
         github: 'https://github.com/illsuive/eComBackend',
 
     },
+        {
+        name: 'food-reel',
+        img: 'imgs/food-reel.png',
+        description: 'A food discovery application built with React.js for exploring and sharing delicious recipes. using scroll ',
+        ProjectDeployed: 'https://illsuive-food-reel-frontend.vercel.app/login',
+        github: 'https://github.com/illsuive/foodReelBackend'
+    },
     {
         name: 'Social-Media-Clone',
         img: null, // No specific image found in source for this project
