@@ -153,7 +153,7 @@ const FullStackProject = [
         name: 'food-reel',
         img: 'imgs/food-reel.png',
         description: 'A food discovery application built with React.js for exploring and sharing delicious recipes. using scroll ',
-        ProjectDeployed: 'https://dummy-front-six.vercel.app',
+        ProjectDeployed: 'https://dummy-front-six.vercel.app/login',
         github: 'https://github.com/illsuive/foodReelBackend'
     },
     {
