@@ -148,6 +148,12 @@ const FullStackProject = [
         ProjectDeployed: 'https://e-com-frontend-navy-six.vercel.app/',
         github: 'https://github.com/illsuive/eComBackend',
 
+    },{
+        name: `VideoChat-site`,
+        img: null,
+        description: `Real-Time Engine: Integrated Stream-Chat SDK for instant messaging and presence indicators.`,
+        ProjectDeployed: `https://video-call-frontend-theta.vercel.app/login`,
+        github: `https://github.com/illsuive/videoCallBackend/tree/main`
     },
         {
         name: 'food-reel',
