@@ -9,10 +9,10 @@ themeToggle.textContent = savedTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
 themeToggle.addEventListener('click', () => {
     const currentTheme = body.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
+
     body.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
-    
+
     themeToggle.textContent = newTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
 });
 
@@ -145,22 +145,23 @@ const FullStackProject = [
         name: 'E-commerce-site',
         img: null, // No specific image found in source for this project
         description: 'A full-stack e-commerce application built with React.js and Node.js for a complete online shopping experience.',
-        ProjectDeployed: 'https://e-com-frontend-navy-six.vercel.app/',
+        ProjectDeployed: 'https://e-com-frontend-navy-six.vercel.app/products',
         github: 'https://github.com/illsuive/eComBackend',
 
-    },{
+    },
+    {
+        name : `chat-site`,
+        img : null,
+        description : `A real-time chat application built with Socket.io for global, anonymous connections and instant messaging.`,
+        ProjectDeployed : `https://chat-front-amber-kappa.vercel.app`,
+        github : `https://github.com/illsuive/chatBack/tree/main`
+    },
+    {
         name: `VideoChat-site`,
         img: null,
         description: `Real-Time Engine: Integrated Stream-Chat SDK for instant messaging and presence indicators.`,
         ProjectDeployed: `https://video-call-frontend-theta.vercel.app/login`,
         github: `https://github.com/illsuive/videoCallBackend/tree/main`
-    },
-        {
-        name: 'food-reel',
-        img: 'imgs/food-reel.png',
-        description: 'A food discovery application built with React.js for exploring and sharing delicious recipes. using scroll ',
-        ProjectDeployed: 'https://dummy-front-six.vercel.app/login',
-        github: 'https://github.com/illsuive/foodReelBackend'
     },
     {
         name: 'Social-Media-Clone',
@@ -177,12 +178,19 @@ const FullStackProject = [
         ProjectDeployed: 'https://ai-chatbox-review.netlify.app',
         github: 'https://github.com/illsuive/ai-chatbox-front',
     },
+    // {
+    //     name: 'Chat-site',
+    //     img: 'imgs/chat-app.png',
+    //     description: 'A real-time chat application built with Socket.io for global, anonymous connections and instant messaging.',
+    //     ProjectDeployed: 'https://chat-app-xzvf.onrender.com',
+    //     github: 'https://github.com/illsuive/chat-app'
+    // },
     {
-        name: 'Chat-site',
-        img: 'imgs/chat-app.png',
-        description: 'A real-time chat application built with Socket.io for global, anonymous connections and instant messaging.',
-        ProjectDeployed: 'https://chat-app-xzvf.onrender.com',
-        github: 'https://github.com/illsuive/chat-app'
+        name: 'food-reel',
+        img: 'imgs/food-reel.png',
+        description: 'A food discovery application built with React.js for exploring and sharing delicious recipes. using scroll ',
+        ProjectDeployed: 'https://illsuive-food-reel-frontend.vercel.app/login',
+        github: 'https://github.com/illsuive/foodReelBackend'
     }
 ];
 
